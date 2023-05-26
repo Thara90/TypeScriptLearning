@@ -8,4 +8,4 @@
 ## Execution
  * **npx tsc .\tests\fileName.ts** : compile typescript code
  * **node .\tests\fileName.js** : run compiled javascriptcode
- * **tsc .\tests\fileName.js** --watch : compile typescript file in every change
+ * **npx tsc .\tests\fileName.js** --watch : compile typescript file in every change
