@@ -12,6 +12,35 @@ var name = 'Jack';
 var found = true;
 var u = undefined;
 var n = null;
-var y;
-console.log(y);
-console.log(num1);
+// array
+var list1 = [1, 2, 3];
+var list2 = [1, 2, 3, 4];
+// tuple - should follow the same ordder
+var tuple1;
+tuple1 = [10, 'apple', 100];
+// enum
+var Color;
+(function (Color) {
+    Color[Color["red"] = 4] = "red";
+    Color[Color["green"] = 5] = "green";
+    Color[Color["blue"] = 6] = "blue";
+})(Color || (Color = {}));
+//to print the key
+var c = Color.green;
+console.log(c);
+//to print the value
+console.log(Color[4]);
+// unknown - cannot do any operation
+var notSure;
+console.log(notSure);
+// any
+var anyValue = 'vader';
+console.log(anyValue);
+// vader - no return type
+function myTest() {
+    console.log("my test function");
+}
+// union types - infer the type of variable based on assigned value
+var peopleAllowed;
+peopleAllowed = 10;
+peopleAllowed = false;
