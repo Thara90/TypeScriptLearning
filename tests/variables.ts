@@ -7,6 +7,7 @@ x=100;
 // typescript infer the type of variable based on assigned value
 let a = 10;
 //a = 'hello';
+console.log(a);
 
 // defining variable type
 let num1:number = 90;
