@@ -2,8 +2,7 @@
 
 ## Insallation
  * **npm init -y** : create package.json
- * **npm install typescript** : install typescript or
-  * **npm i -g typescript**
+ * **npm install typescript** / **npm i -g typescript** : install typescript
  * **npx tsc -v** : check typescript is installed
 
 ## Execution
